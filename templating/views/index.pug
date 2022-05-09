@@ -4,26 +4,29 @@ html(lang="en")
         meta(charset="UTF-8")
         meta(http-equiv="X-UA-Compatible", content="IE=edge")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        title Le templating
+        link(rel="icon", href="/assets/logo.svg")
+        title Le templating 
         link(rel="stylesheet", href="/css/styles.css" )
-        //- style. 
-        //-     p{
-        //-         color:white;
-        //-     }
-        //-     body{
-        //-           background: red;
-        //-     }
-
 
     body 
+
         article.templating 
+                img(src="/assets/pug.jpeg", alt="pug.jpeg")
+            
+                h1.sommaire SOMMAIRE
+                    - let sommaire = ["Le templating", "Pug"]
+                    each item in sommaire
+                        li= item
                 h1 LE TEMPLATING
                 h3 Qu'est-ce que c'est ?
                 p Le templating est plus connu sous le nom de "Moteur de template". C'est un outil qui permet de simplifer la syntaxe au niveau de la structure HTML.
+                p Il existe plusieurs types de moteurs de templat : Pug, Handlebars, et Mustache.
                 p Je vais vous parler plus précisément du template Pug anciennement appelé Jade. 
 
         article.pug
             h1 PUG
+            p Pug nous permet de générer du code HTML, nous pouvons injecter du code JS dans les fichiers pug.
+            p Il y a aussi des inconvénients si on utilise pug, tout d'abord si on utilise mal les indentations, cela peut nous renvoyer un message d'échec.
             h3 Les commandes pour installer pug :
             p.commande-install npm install pug-cli -g
             br
@@ -36,8 +39,8 @@ html(lang="en")
                         #id Ceci est un id
                     
                     h3 résultat de la syntaxe avec pug :
-                    article.image 
-                        img(src="/assets/syntaxePug.png", alt="syntaxe")
+                        article.image 
+                            img(src="/assets/syntaxePug.png", alt="syntaxe")
                     br
 
                     article.version-html
@@ -47,5 +50,5 @@ html(lang="en")
                             p pug -P index.pug
                         
                     h3 résultat de la syntaxe avec html :
-                    article.image 
-                        img(src="/assets/syntaxeHtml.png", alt="syntaxe")
+                        article.image 
+                            img(src="/assets/syntaxeHtml.png", alt="syntaxe")

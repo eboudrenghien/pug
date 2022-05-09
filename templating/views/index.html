@@ -4,30 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Le templating</title>
+    <link rel="icon" href="/assets/logo.svg">
+    <title>Le templating </title>
     <link rel="stylesheet" href="/css/styles.css">
   </head>
   <body> 
-    <article class="templating"> 
+    <article class="templating"> <img src="/assets/pug.jpeg" alt="pug.jpeg">
+      <h1 class="sommaire">SOMMAIRE
+        <li>Le templating</li>
+        <li>Pug</li>
+      </h1>
       <h1>LE TEMPLATING</h1>
       <h3>Qu'est-ce que c'est ?</h3>
       <p>Le templating est plus connu sous le nom de "Moteur de template". C'est un outil qui permet de simplifer la syntaxe au niveau de la structure HTML.</p>
+      <p>Il existe plusieurs types de moteurs de templat : Pug, Handlebars, et Mustache.</p>
       <p>Je vais vous parler plus précisément du template Pug anciennement appelé Jade. </p>
     </article>
     <article class="pug">
       <h1>PUG</h1>
+      <p>Pug nous permet de générer du code HTML, nous pouvons injecter du code JS dans les fichiers pug.</p>
+      <p>Il y a aussi des inconvénients si on utilise pug, tout d'abord si on utilise mal les indentations, cela peut nous renvoyer un message d'échec.</p>
       <h3>Les commandes pour installer pug :</h3>
       <p class="commande-install">npm install pug-cli -g</p><br>
       <h3>Exemples de synxtaxe avec pug :</h3>
-      <div>
+      <div class="syntaxe">   
         <article class="version-pug">
           <h2>Ceci est un titre en h2</h2>
           <div class="div">Ceci est une div</div>
           <div id="id">Ceci est un id</div>
-        </article><br>
-        <article class="image"> <img src="/assets/syntaxe.png" alt="syntaxe"></article><br>
-      </div>
-      <div> 
+        </article>
+        <h3>résultat de la syntaxe avec pug :
+          <article class="image"> <img src="/assets/syntaxePug.png" alt="syntaxe"></article>
+        </h3><br>
         <article class="version-html">
           <h3>Les commandes pour mettre le document pug en html </h3>
           <div class="commande-html">
@@ -35,7 +43,9 @@
             <p>pug -P index.pug</p>
           </div>
         </article>
-        <h3>résultat de la synxtaxe avec html :</h3>
+        <h3>résultat de la syntaxe avec html :
+          <article class="image"> <img src="/assets/syntaxeHtml.png" alt="syntaxe"></article>
+        </h3>
       </div>
     </article>
   </body>
