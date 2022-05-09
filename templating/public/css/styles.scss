@@ -1,0 +1,56 @@
+body {
+    padding: 0;
+    margin: 20px;
+    box-sizing: border-box;
+    background: #b39691;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+
+    padding: 5px 10px 5px;
+    color: white;
+    background-color: #a86454;
+    display: inline;
+}
+
+p {
+    color:rgb(0, 0, 0);
+}
+
+
+.commande-install {
+    display: inline;
+    padding: 2px 10px 2px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid black;
+    background: white;
+}
+
+
+
+
+.syntaxe {
+    .version-pug {
+        display: block;
+        width: 20%;
+        padding: 2px 10px 2px;
+        font-family: 'Courier New', Courier, monospace;
+        border: 1px solid black;
+        background: white;
+    }
+    .version-html {
+        .commande-html {
+            display: block;
+            width: 20%;
+            padding: 2px 10px 2px;
+            font-family: 'Courier New', Courier, monospace;
+            border: 1px solid black;
+            background: white;
+        }
+    }
+}
+
+    
+
+

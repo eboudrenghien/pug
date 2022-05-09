@@ -1,0 +1,8 @@
+https://www.fil.univ-lille1.fr/portail/archive19-20/~routier/enseignement/licence/js/cours/node-serveur.pdf
+
+https://blog.ippon.fr/2018/07/03/introduction-a-pug/
+
+https://bretcameron.medium.com/so-you-think-you-know-html-7813c03f8ff6
+
+https://expressjs.com/fr/guide/using-template-engines.html
+

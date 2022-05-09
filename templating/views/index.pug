@@ -1,0 +1,51 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Le templating
+        link(rel="stylesheet", href="/css/styles.css" )
+        //- style. 
+        //-     p{
+        //-         color:white;
+        //-     }
+        //-     body{
+        //-           background: red;
+        //-     }
+
+
+    body 
+        article.templating 
+                h1 LE TEMPLATING
+                h3 Qu'est-ce que c'est ?
+                p Le templating est plus connu sous le nom de "Moteur de template". C'est un outil qui permet de simplifer la syntaxe au niveau de la structure HTML.
+                p Je vais vous parler plus précisément du template Pug anciennement appelé Jade. 
+
+        article.pug
+            h1 PUG
+            h3 Les commandes pour installer pug :
+            p.commande-install npm install pug-cli -g
+            br
+            h3 Exemples de synxtaxe avec pug :
+            
+            div.syntaxe    
+                    article.version-pug
+                        h2 Ceci est un titre en h2
+                        .div Ceci est une div
+                        #id Ceci est un id
+                    
+                    h3 résultat de la syntaxe avec pug :
+                    article.image 
+                        img(src="/assets/syntaxePug.png", alt="syntaxe")
+                    br
+
+                    article.version-html
+                        h3 Les commandes pour mettre le document pug en html 
+                        div.commande-html
+                            p cd views
+                            p pug -P index.pug
+                        
+                    h3 résultat de la syntaxe avec html :
+                    article.image 
+                        img(src="/assets/syntaxeHtml.png", alt="syntaxe")
