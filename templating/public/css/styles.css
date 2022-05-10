@@ -2,7 +2,7 @@ body {
   padding: 0;
   margin: 20px;
   box-sizing: border-box;
-  background: #b39691;
+  background: #d6c3c0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -25,6 +25,9 @@ p {
   background: white;
 }
 
+.syntaxe {
+  display: flex;
+}
 .syntaxe .version-pug {
   display: block;
   width: 20%;
